@@ -1,0 +1,44 @@
+.container {
+display: flex;
+flex-direction: coloum;
+justify-content: center;
+align-content: center;
+padding: 20px;
+}
+
+.input {
+  padding: 1px;
+  width: 7%;
+  margin: auto;
+  border: 1px solid lightseagreen;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.input:focus{
+outline: none;
+}
+
+.weather-data {
+margin-top: 100px;
+display: flex;
+flex-direction: coloum;
+align-items: center;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: 200px;
+}
+
+.temp {
+  font-size: 95px;
+  padding: 12px;
+  border: 1px solid lightseagreen;
+  border-radius: 12px;
+}
+
+.weather {
+  font-size: 35x;
+  font-weight: 200px;
+}
